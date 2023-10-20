@@ -1,0 +1,58 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+main{
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: white;
+    color: green;
+    border: 2px solid rgb(150, 148, 148);
+}
+h1{
+    padding: 0 5px 0 5px;
+}
+nav {
+    background-color: white;
+    color: yellow;
+    border: 2px solid rgb(150, 148, 148);
+}
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 3fr; 
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    background-color:rgb(54, 156, 40);
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+}
+nav ul li:hover{
+    color:gold;
+    background-color: rgb(131, 209, 57);
+}
+nav ul li a {
+    text-decoration: none;
+}
+article {
+    background-color: black;
+    color: white;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 110px 110px 110px 110px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+
+}
+article div {
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+    
